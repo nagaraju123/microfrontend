@@ -1,0 +1,9 @@
+---------------------- steps  --------------------------
+1) npm install in three applications
+2) npm install webpack-cli live-server
+3) build main applications using "ng build"
+4) build individual applications using "npm run build"
+5) Copy both dist files which are available in "src/projects/dist" and paste it in main application dist folder
+6) npm start to run application
+
+
