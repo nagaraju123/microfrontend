@@ -21,12 +21,10 @@ export class LoadbundlesService {
 
   load(name: string): void {
     const configItem = this.config.configJson[name];
-    alert(" config item  " + configItem);
     if (configItem == undefined) {
     }
     else {
-      alert(" in config item else   ");
-      
+      console.log(" in config item else   ");
       const content = document.getElementById('content');
       content.innerHTML = "";
       const script = document.createElement('script');

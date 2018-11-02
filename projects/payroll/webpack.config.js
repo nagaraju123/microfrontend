@@ -47,7 +47,7 @@ const payroll = {
     
   ],
   output: {
-    path: __dirname + '../../dist/hcms_applications/payroll',
+    path: __dirname + '../../dist/microfrontend/payroll',
     filename: 'main.bundle.js'
   },
   mode: 'production'

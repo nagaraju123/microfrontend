@@ -13,7 +13,7 @@ export class LoginComponent implements OnInit {
   ) { }
   @Input() message: string;
   ngOnInit() {  
-    alert("in login component"+this.message);
+    console.log("in login component"+this.message);
   }
 
   login(){

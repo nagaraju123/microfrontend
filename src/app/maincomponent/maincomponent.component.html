@@ -1,13 +1,12 @@
 <div *ngFor="let arr of routes">
+    <a routerLink={{arr.path}}> {{arr.AppName}} </a>
 
-    <button routerLink={{arr.path}}> {{arr.AppName}} </button>
-
-</div>
-
-<div id="content">
+</div>  
+<div id="content" class="content">
 
 
 </div>
-<template #dashboard>
+<router-outlet></router-outlet>
+<!-- <template #dashboard> -->
     <!-- <router-outlet>  </router-outlet> -->
-</template>
+<!-- </template> -->

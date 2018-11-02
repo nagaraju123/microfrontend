@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(){
-    alert('-- Authentication for ngOninit')
+    console.log('-- Authentication for ngOninit')
   }
 
 }

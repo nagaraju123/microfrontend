@@ -28,7 +28,8 @@ export class MaincomponentComponent implements OnInit{
      private router: Router) { }
 
   ngOnInit() {
-        alert('-- main component --')
+    alert(this.routes);
+    //     alert('-- main component --')
     // this.subscription = this.router.events.subscribe((event) => {
     //   if (event instanceof NavigationEnd) {
     //     this.routeName = event.url;
@@ -50,9 +51,12 @@ export class MaincomponentComponent implements OnInit{
   }
 
   // ngOnDestroy(){
-  //   alert('-- on destroy --');
-  //   this.entry.clear();
+  //   this.subscription.unsubscribe();
   // }
+  ngOnDestroy(){
+    console.log('-- on destroy --');
+    // this.entry.clear();
+  }
  
 
 }

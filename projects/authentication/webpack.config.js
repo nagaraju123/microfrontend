@@ -47,7 +47,7 @@ const auth = {
     
   ],
   output: {
-    path: __dirname + '../../dist/hcms_applications/auth',
+    path: __dirname + '../../dist/microfrontend/auth',
     filename: 'main.bundle.js'
   },
   mode: 'production'

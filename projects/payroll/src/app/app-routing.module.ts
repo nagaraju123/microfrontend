@@ -7,7 +7,7 @@ const routes: Routes = [{ path: 'payroll', component: PayrollComponent },
 { path: '**', component: EmptyComponent }];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{useHash:false})],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
